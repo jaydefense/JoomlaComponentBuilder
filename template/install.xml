@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+<name>com_!name!</name>
+<creationDate>!date!</creationDate>
+<author>!author!</author>
+<authorEmail>Insert your Email</authorEmail>
+<authorUrl></authorUrl>
+<copyright>!copyright!</copyright>
+<license>!license!</license>
+<!--  The version string is recorded in the components table -->
+<version>1.00</version>
+<!-- The description is optional and defaults to the name -->
+<description>COM_!NAME!_DESC</description>
+
+<install>
+<sql>
+<file charset="utf8" driver="mysql">sql/install.sql</file>
+</sql>
+</install>
+<uninstall>
+<sql>
+<file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+</sql>
+</uninstall>
+
+<files folder="site">
+	<filename>index.html</filename>
+	<filename>!name!.php</filename>
+	<filename>controller.php</filename>
+	<folder>controllers</folder>
+	<folder>models</folder>
+	<folder>helpers</folder>
+	<folder>views</folder>
+</files>
+<languages>
+	<language tag="fr-FR">languages/!language!.com_lmnp.ini</language>
+</languages>
+<administration>
+<menu>COM_!NAME!_LABEL</menu>
+<files folder="admin">
+	<filename>index.html</filename>
+	<filename>!name!.php</filename>
+	<filename>controller.php</filename>
+	<filename>config.xml</filename>
+	<filename>access.xml</filename>
+	<folder>controllers</folder>
+	<folder>models</folder>
+	<folder>tables</folder>
+	<folder>views</folder>
+	<folder>sql</folder>
+</files>
+<languages>
+<language tag="fr-FR">languages/!language!.com_lmnp.ini</language>
+<language tag="fr-FR">languages/!language!.com_lmnp.sys.ini</language>
+</languages>
+</administration>
+</extension>

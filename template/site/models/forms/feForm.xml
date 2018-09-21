@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	!fieldList!
+
+	<fieldset name="image-full">
+		<field
+			name="image_fulltext"
+			type="media"
+			label="COM_CONTENT_FIELD_FULL_LABEL"
+			description="COM_CONTENT_FIELD_FULL_DESC" />
+		<field name="image_fulltext_alt"
+			type="text"
+			label="COM_CONTENT_FIELD_IMAGE_ALT_LABEL"
+			description="COM_CONTENT_FIELD_IMAGE_ALT_DESC"
+			class="inputbox"
+			size="20" />
+		<field name="image_fulltext_caption"
+			type="text"
+			label="COM_CONTENT_FIELD_IMAGE_CAPTION_LABEL"
+			description="COM_CONTENT_FIELD_IMAGE_CAPTION_DESC"
+			class="inputbox" 
+			size="20" />	
+		<field
+			name="float_fulltext"
+			type="list"
+			label="COM_CONTENT_FLOAT_FULLTEXT_LABEL"
+			description="COM_CONTENT_FLOAT_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="right">COM_CONTENT_RIGHT</option>
+				<option value="left">COM_CONTENT_LEFT</option>
+		</field>
+	</fieldset>
+	<fields name="urls">
+		<field
+			name="urla"
+			type="url"
+			validate="url"
+			label="COM_CONTENT_FIELD_URLA_LABEL"
+			description="COM_CONTENT_FIELD_URL_DESC" />
+		<field name="urlatext"
+			type="text"
+			label="COM_CONTENT_FIELD_URLA_LINK_TEXT_LABEL"
+			description="COM_CONTENT_FIELD_URL_LINK_TEXT_DESC"
+			class="inputbox" 
+			size="20" />
+		<field
+			name="targeta"
+			type="hidden"
+		 />
+
+		<field
+			name="urlb"
+			type="url"
+			validate="url"
+			label="COM_CONTENT_FIELD_URLB_LABEL"
+			description="COM_CONTENT_FIELD_URL_DESC" />
+		<field name="urlbtext"
+			type="text"
+			label="COM_CONTENT_FIELD_URLB_LINK_TEXT_LABEL"
+			description="COM_CONTENT_FIELD_URL_LINK_TEXT_DESC"
+			class="inputbox" 
+			size="20" />
+		<field
+			name="targetb"
+			type="hidden"
+			 />
+		<field
+			name="urlc"
+			type="url"
+			validate="url"
+			label="COM_CONTENT_FIELD_URLC_LABEL"
+			description="COM_CONTENT_FIELD_URL_DESC" />
+		<field 
+			name="urlctext"
+			type="text"
+			label="COM_CONTENT_FIELD_URLC_LINK_TEXT_LABEL"
+			description="COM_CONTENT_FIELD_URL_LINK_TEXT_DESC"
+			class="inputbox" 
+			size="20" />
+		<field
+			name="targetc"
+			type="hidden"
+				 />
+	</fields>	
+
+</form>

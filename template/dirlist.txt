@@ -1,0 +1,22 @@
+!NAME! MYBOOKS
+!Name! Mybooks
+!name! mybooks
+
+!NAMEOBJECT! BOOK
+!Nameobject! Book
+!nameobject! book
+
+!Nameobjectlist! BOOKLIST
+!nameobjectlist! booklist
+
+!primaryKey!
+!fieldList! CSV
+!nullableFieldList! CSV
+!license!
+
+!dataValidationJS! not used
+
+
+Create components for Joomla! - Managing the front end
+
+(Alias: create-components-for-joomla-managing-the-front-end)
